@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.intro{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+.hi{
+    font-size: 20px;
+    text-align: center;
+}
+.para1{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Food{
+    font-size: 20px;
+}
+.hobby{
+     font-size: 20px;
+}
+
+.fav-sites {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 20px;
+}
+.fav-sites a {
+  display: block;
+  color: #1aa6a6;   /* institute teal */
+  text-decoration: none;
+  margin: 6px 0;
+  font-weight: 500;
+}
+
+.fav-sites a:hover {
+  color: #0f766e;
+  text-decoration: underline;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-family: Arial, sans-serif;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center; 
+}
+
+th {
+  background-color: #1aa6a6;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #e0f2f1;
+}
+.form{
+    font-size: 20px;
+    text-align: left;
+}
+.btn{
+     padding: 10px;
+  background: darkgray;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  color: black;
+  border-radius: 6px;
+  border-color: aqua;
+}
+.btn:hover{
+    background-color: rgb(126, 4, 4);
+}
+body {
+            background: #ffffff;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .login-box {
+            width: 320px;
+            margin: 45px auto;
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(255, 0, 0, 0.2);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .button1 {
+            width: 88%;
+            
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+
+        .text {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        .a{
+        
+            font-size: 20px;
+            color: blue;
+            text-decoration: underline;
+            margin: 0 10px;
+            
+        }
+        .head{
+            text-align: center;
+            padding-top: 20px;
+            height: 35px;
+            background-color: lightcoral;
+        }
+        .sec{
+            text-align: center;
+            padding-top: 30px;
+            height: 50px;
+            background-color: rgb(223, 223, 73);
+        }
+        .foot{
+            text-align: center;
+            padding-top: 20px;
+            height: 30px;
+            background-color: rgb(90, 211, 154);
+        }
+        video {
+          width: 900%;
+  height: auto;
+  object-fit: cover;
+  padding-bottom: 0%;
+    
+      max-width: 600px;
+      border-radius: 12px;
+    }
+    .para{
+      background-image: url(img/good\ things.jpg);
+      height: 700px;
+    }
+
+    button {
+      width: 10%;
+      padding: 14px 32px;
+      font-size: 18px;
+      border: none;
+      border-radius: 10px;
+      background: #c00808;
+      color: white;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+
+    /* Hover effect */
+    button:hover {
+      background: #740202;
+      transform: scale(1.08);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+    }
+    .container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .column {
+    flex: 1;
+    background: lightcoral;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+.card {
+  width: 320px;
+  background: rgb(255, 255, 255);
+  border-radius: 20px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card .emoji {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.card h1 {
+  color: #ec4899;
+  margin: 10px 0;
+}
+
+.card p {
+  color: #555;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.btn2 {
+  border: none;
+  border-radius: 25px;
+  background: #ec4899;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 40%;
+}
+
+button:hover {
+  background: #be185d;
+  box-shadow: 0 8px 20px rgba(236,72,153,0.4);
+}
+.navbar {
+  
+  background: #1f2933;
+  padding: 15px 40px;
+}
+.Nav{
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+
+/* ul as flex */
+.navbar ul {
+  justify-content: center;
+  list-style: none;
+  display: flex;
+  gap: 30px;              /* spacing between items */
+  margin: 0;
+  padding: 0;
+}
+
+/* links */
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+/* hover effect */
+.navbar a:hover {
+  color: #60a5fa;
+}
+.container {
+  display: flex;
+  gap: 20px;
+  padding: 30px;
+}
+
+/* columns */
+.box {
+  flex: 1;
+  background: lightcoral;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* text */
+.box h2 {
+  margin-top: 0;
+  color: #1f2937;
+}
+
+.box p {
+  color: #555;
+  line-height: 1.6;
+}
+
+/* ✅ Mobile view */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;   /* stack vertically */
+  }
+}
+nav{
+  background:#222;
+  padding:15px;
+  
+}
+
+nav ul{
+  list-style:none;
+  display:flex;
+  justify-content:center;
+  gap:20px;
+}
+
+nav ul li a{
+  color:white;
+  text-decoration:none;
+  font-size:16px;
+}
+
+nav ul li a:hover{
+  color:#00bcd4;
+}
+.home1{
+  text-align: center;
+  background-color: rgb(236, 104, 104);
+  height: 100px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.about1{
+  text-align: center;
+  background-color: rgb(223, 223, 91);
+  height: 100px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}.skill1{
+  text-align: center;
+  background-color: rgb(138, 226, 197);
+  height: 150px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}.contact1{
+  text-align: center;
+  background-color: lightsalmon;
+  height: 140px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.card2 {
+  width: 500px;
+  height: 500px;
+  margin: 60px auto;
+  background-color: #0c0c0c;
+  color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+}
+
+.card2 h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.tr2 {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background-color: #ffffff;
+  color: #000;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.stu{
+  text-align: center;
+  font-size: 25px;
+  text-decoration: underline;
+}
+.info{
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.result{
+  text-align: center;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  </style>
+</style>
+<body>
+    <h1 class="intro">Introduction</h1>
+    <h4 class="hi">Hi, I am Aneeqa</h4>
+    <p class="para1">I am 15 years old, I study in class Metric.<br><br>
+        I am a passionate and motivated beginner web developer who is currently learning and building skills in website design and development. I enjoy creating clean, simple, and user-friendly websites using HTML, CSS, and basic web tools. Learning new technologies excites me, and I always try to improve my skills through practice.
+<br><br>
+I am focused on developing modern and responsive websites that work well on all devices. I like working on creative ideas and turning them into real web pages. As a learner, I believe consistency and dedication are the keys to success, and I am committed to growing step by step in the field of web development.
+<br><br>
+My goal is to become a professional web developer and create websites that help businesses and individuals grow online. I am eager to learn more, take on new challenges, and build a strong career in the digital world through continuous learning and hard work.</p>
+<h1 style="text-align: center;">Image</h1>
+<img src="img/coffee.webp" width="100%">
+<h1 style="text-align: center;">Favorite Foods</h1>
+<ol class="Food">
+    <li>Biryani</li>
+    <li>Pizza</li>
+    <li>Zinger</li>
+    <li>Donuts</li>
+    <li>Ice cream</li>
+</ol>
+<h1 style="text-align: center;">Favorite Hobby</h1>
+<ul class="hobby">
+    <li>Playing</li>
+    <li>Sleeping</li>
+    <li>Coding</li>
+    <li>Eating</li>
+    <li>Photography</li>
+</ul>
+  <h1 style="text-align: center;">My Favorite Websites</h1>
+<div class="fav-sites">
+  <a href="https://www.google.com" target="_blank"> 🌐 Google</a>
+  <a href="https://www.wikipedia.org" target="_blank">🌐 Wikipedia</a>
+  <a href="https://www.w3schools.com" target="_blank">🌐 W3Schools</a>
+</div>
+<h1 style="text-align: center;">Table</h1>
+            <table border="1" cellpadding="10">
+  <tr>
+    <th>Name</th>
+    <th>Class</th>
+    <th>Roll Number</th>
+  </tr>
+  <tr class="tr">
+    <td>Ali</td>
+    <td>10th</td>
+    <td>101</td>
+  </tr>
+  <tr class="tr">
+    <td>Sara</td>
+    <td>9th</td>
+    <td>102</td>
+  </tr>
+   <tr class="tr">
+    <td>Hamza</td>
+    <td>8th</td>
+    <td>103</td>
+  </tr>
+</table>
+<h1 style="text-align: center;">Login Form</h1>
+<div class="login-box">
+    <h2>Login</h2>
+
+    <form>
+        <label>Username</label>
+        <input type="text" placeholder="Enter username" required>
+
+        <label>Password</label>
+        <input type="password" placeholder="Enter password" required>
+
+        <button class="button1" type="submit">Login</button>
+    </form>
+
+    <div class="text">
+        Don't have an account? Sign up
+    </div>
+</div>
+
+<h1 style="text-align: center;">Navbar</h1>
+<center>
+    <a class="a" href="home.html">Home</a>
+    <a class="a" href="about.html">about</a>
+    <a class="a" href="contact.html">contact</a>
+    <a class="a" href="servive.html">services</a>
+</center><br><br>
+
+<h1 style="text-align: center;">Webpage</h1>
+<header class="head">Header</header>
+<section class="sec">Section</section>
+<footer class="foot">Footer</footer>
+<h1 style="text-align: center;">Embed Video</h1>
+      <video controls autoplay muted loop>
+    <source src="bismillahh.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <h1 style="text-align: center;">Background Image</h1>
+  <p class="para">Here a background image</p>
+  <h1 style="text-align: center;">Hover Button</h1>
+  <center><button class="Button">Submit</button>
+  </center><br><br>
+
+    <h1 style="text-align: center;">Columns</h1>
+    <center>
+  <div class="container">
+    <div class="column">
+      <h2>Left Column</h2>
+      <p>This is the first column.</p>
+    </div>
+
+    <div class="column">
+      <h2>Right Column</h2>
+      <p>This is the second column.</p>
+    </div>
+  </div>
+  <h1>Birthday Card</h1><br><br>
+<div class="card">
+  <h1>Happy Birthday!</h1>
+  <p>
+    May Allah shower His endless blessings upon you, grant you happiness, good health, and inner peace, and guide you towards success in this world and the hereafter.
+     May your life be filled with love, positivity, and beautiful moments always. Ameen.
+  </p><br>
+  <button class="btn2">Celebrate </button></center>
+
+  <h1 style="text-align: center;">Navigation Bar</h1>
+  <nav class="navbar">
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav><br><br>
+
+<h1 style="text-align: center;">Column Layout</h1>
+<div class="container">
+  <div class="box">
+    <h2>Column One</h2>
+    <p>
+       We create clean, modern, and responsive designs that work perfectly on
+      mobile, tablet, and desktop devices. Our goal is to make websites that
+      look beautiful and are easy to use for everyone.
+    </p>
+  </div>
+  <div class="box">
+    <h2>Column Two</h2>
+    <p>
+      We focus on simplicity, performance, and user-friendly design.
+      Every layout is carefully crafted to look good on all screen sizes.Start learning today and improve your web design skills with practical
+      examples and easy explanations.
+    </p>
+  </div>
+</div>
+</div>
+<h1 style="text-align: center;">Portfolio</h1>
+<nav>
+<h3 class="Nav">Nav Bar</h3>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav> 
+   <section class="home1">
+    <h3 style="font-size: 25px;">Home</h3>
+    <p style="font-size: 20px;">This is my "Home" page</p>
+  </section>  
+   <section class="about1" id="about">
+    <h3 style="font-size: 25px;">About</h3>
+    <p style="font-size: 20px;">This is my "About" page</p></section>
+    <section class="skill1" id="skills">
+        <h3 style="font-size: 25px;">skills</h3>
+        <p style="font-size: 20px;">HTML<br>
+           CSS<br>
+        JavaScript</p>
+    </section>
+    <section class="contact1" id="contact">
+        <h3 style="font-size: 25px;">Contact</h3>
+        <p style="font-size: 20px;"> Email: aneeqaanwer308@gmail.com<br>
+            Number: 03196610150
+        </p>
+    </section><br><br>
+    <h1 style="text-align: center;">Result Card</h1>
+     <div class="card2">
+    <h3 class="stu">Student Result Card</h3>
+    <div class="info">
+  <p><strong>Name :</strong> Ali Shiekh</p>
+  <p><strong>Class :</strong> 10</p>
+  <p><strong>Roll No :</strong> 23</p>
+</div>
+
+<div class="table-box">
+  <table>
+    <tr>
+      <th>Subject</th>
+      <th>Marks</th>
+    </tr>
+    <tr class="tr2">
+      <td>English</td>
+      <td>85</td>
+    </tr>
+    <tr class="tr2">
+      <td>Math</td>
+      <td>90</td>
+    </tr>
+    <tr class="tr2">
+      <td>Science</td>
+      <td>88</td>
+    </tr>
+    <tr class="tr2">
+      <td>Computer</td>
+      <td>92</td>
+    </tr>
+  </table>
+   <p class="result"><strong>Result :</strong> Pass</p>
+</div>
+<body>
